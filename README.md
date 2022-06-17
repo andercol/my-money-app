@@ -2,7 +2,7 @@
 
 Aplicação para controle de ciclos de pagamento desenvolvida durante o curso de React + Redux.
 
-![Dashboard da aplicação](\img\dashboard.jpg)
+![Dashboard da aplicação](img\dashboard.jpg)
 
 
 

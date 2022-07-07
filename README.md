@@ -2,9 +2,12 @@
 
 Aplicação para controle de ciclos de pagamento desenvolvida durante o curso de React + Redux.
 
-![Dashboard da aplicação](img/dashboard.jpg)
+#### Dashboard
+![Dashboard da aplicação](img/dashboard.jpg)  
 
 
+#### Ciclos de pagamentos 
+![Dashboard da aplicação](img/Ciclos_de_pagamentos.jpg)
 
 ---
 
@@ -33,10 +36,17 @@ Aplicação para controle de ciclos de pagamento desenvolvida durante o curso de
 * nodemon@1.11.0 - dependência de desenvolvimento
 
 
+---
+
+Servidor roda na porta 3003 
 
 ---
 
-Servidor roda na porta 3003
+
+#### Referencias da API
+
+![Dashboard da aplicação](img/referencia_api.jpg)  
+
 
 ---
 
@@ -81,3 +91,17 @@ Servidor roda na porta 3003
 * react-redux-toastr@4.4.2 
 * axios@0.15.3 
 * lodash@4.17.4 
+
+
+
+---
+
+### Estrutura Geral: 
+
+![Dashboard da aplicação](img/Estrutura_Geral.jpg)
+
+
+
+---
+
+### 

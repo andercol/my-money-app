@@ -9,9 +9,9 @@ class BillingCycleList extends Component {
         this.props.getList()
     }
 
-    renderRows(){
+    renderRows() {
         const list = this.props.list || []
-        
+
         return list.map(bc => ( /* bc = billingCycles */
             <tr key={bc._id}>
                 <td>{bc.name}</td>
@@ -38,7 +38,7 @@ class BillingCycleList extends Component {
                             <th>Nome</th>
                             <th>Mês</th>
                             <th>Ano</th>
-                            <th>Ações</th>
+                            <th className='table-actions'>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,6 +50,6 @@ class BillingCycleList extends Component {
     }
 }
 
-const mapStateToProps = state => ({list: state.billingCycle.list})
-const mapDispatchToProps = dispatch => bindActionCreators({getList, showUpdate, showDelete}, dispatch)
+const mapStateToProps = state => ({ list: state.billingCycle.list })
+const mapDispatchToProps = dispatch => bindActionCreators({ getList, showUpdate, showDelete }, dispatch)
 export default connect(mapStateToProps, mapDispatchToProps)(BillingCycleList)

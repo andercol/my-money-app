@@ -35,6 +35,25 @@ Aplicação para controle de ciclos de pagamento desenvolvida durante o curso de
 * pm2@2.1.5
 * nodemon@1.11.0 - dependência de desenvolvimento
 
+### Dependencia Backend para Autenticação:
+
+* bcrypt@5.0.1
+* jsonwebtoken@7.3.0
+
+---
+
+necessário adicior um arquivo .env na pasta "SRC" conforme exemplo:
+~~~javascritp 
+module.exports = {
+
+  // Você pode alterar essa chave!
+
+  authSecret: 'insira caracteres alfanumericos aqui'
+
+}
+~~~
+
+
 
 ---
 

@@ -11,7 +11,7 @@ import TabHeader from "../common/tab/tabHeader";
 import TabContent from "../common/tab/tabContent";
 import { init, create, update, remove } from './billingCycleActions';
 
-import List from './BillingCycleList'
+import List from './billingCycleList'
 import Form from './billingCycleForm'
 
 class BillingCycle extends Component {
